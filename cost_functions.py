@@ -1,6 +1,8 @@
-from helpers import logistic, to_equation, differentiate, nearest_approach_to_any_vehicle, get_f_and_N_derivatives
+from helpers import logistic, to_equation, differentiate, \
+    nearest_approach_to_any_vehicle, get_f_and_N_derivatives
 from constants import *
 import numpy as np
+
 # COST FUNCTIONS
 def time_diff_cost(traj, target_vehicle, delta, T, predictions):
     """

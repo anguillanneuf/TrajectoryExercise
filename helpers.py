@@ -96,6 +96,7 @@ def show_trajectory(s_coeffs, d_coeffs, T, vehicle=None):
             Y2.append(d_)
         t += 0.25
     plt.scatter(X,Y,color="blue")
+    # add labels for time stamps
     if vehicle:
         plt.scatter(X2, Y2,color="red")
     plt.show()
